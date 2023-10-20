@@ -1,0 +1,115 @@
+Notes,Score,evidence
+Video,2.5,"2min video of the project demo, and informative text provided on the GH repo about the significant delta from prior."
+Workload is spread over the whole team (one team member is often Xtimes more productive than the others...,2.5,Each member worked on a different feature: https://github.com/Swaranjali167/Jobify/pulse
+"but nevertheless, here is a track record that everyone is contributing a lot)",2.5,Evidence is present in Github repo
+Number of commits,2.5,number of commits present in Github repo(184 commits)
+Number of commits: by different people,2.5,number of commits made by all team members in Github repo are visible -> https://github.com/Swaranjali167/Jobify/graphs/commit-activity
+Issues reports: there are many,2,"20 total issues reported, and 3 open as visible in: https://github.com/Swaranjali167/Jobify/issues"
+Issues are being closed,2,20 issues have been closed. 3 are open
+DOI badge: exists,2.5,Present in the Github repo
+"Docs: doco generated, format not ugly",2.5,"Documents are formatted properly in a simple, clear and concise manner"
+Docs: what: point descriptions of each class/function (in isolation),2.5,"Specific, and succint descriptions of most classes/functions present in: https://github.com/Swaranjali167/Jobify/tree/main/docs"
+"Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z",0,Absence of use case examples.
+"Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing",2.5,Detailed descriptions of the project functionalities which provide clarity about the project in: https://github.com/Swaranjali167/Jobify/tree/main/docs
+"Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.",2.5,Added in Readme.md: https://github.com/Swaranjali167/Jobify/blob/main/README.md
+Use of version control tools,2,Github is used
+Use of style checkers,2.5,https://github.com/Swaranjali167/Jobify/blob/main/.github/workflows/style_checker.yml
+Use of code formatters.,2,"Use of Flake8, updated in .circleci/config.yml -> https://github.com/Swaranjali167/Jobify/blob/main/.circleci/config.yml"
+Use of syntax checkers.,2,"Use of Flake8, updated in .circleci/config.yml -> https://github.com/Swaranjali167/Jobify/blob/main/.circleci/config.yml"
+Use of code coverage,2.5,Code coverage as recorded in Github repo is 87%
+Other automated analysis tools,2,https://github.com/Swaranjali167/Jobify/blob/main/.circleci/config.yml
+Test cases exist,2,40 test cases with coverage > 80% for each file -> https://github.com/Swaranjali167/Jobify/tree/main/test
+Test cases are routinely executed,1.5,https://app.codecov.io/gh/Swaranjali167/Jobify
+The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up,1.5,Information present on how to contribute to the project as well as how the project can be extended in the Github: https://github.com/Swaranjali167/Jobify/blob/main/CONTRIBUTING.md
+Issues are discussed before they are closed,2.5,Each issue updated with the discussion before closing and comments added -> https://github.com/Swaranjali167/Jobify/issues
+Chat channel: exists,1.5,Used Whatsapp and email for all communication regarding project
+Test cases: a large proportion of the issues related to handling failing cases.,2.5,https://github.com/Swaranjali167/Jobify/issues
+Evidence that the whole team is using the same tools: everyone can get to all tools and files,1,
+"Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)",1.5,
+"Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)",0.5,
+Evidence that the members of the team are working across multiple places in the code base,1,https://github.com/Swaranjali167/Jobify/pulse
+Short release cycles,0.5,1 Release -> https://github.com/Swaranjali167/Jobify/releases
+"Does your website and documentation provide a clear, high-level overview of your software?*",Yes,https://github.com/Swaranjali167/Jobify/tree/main/docs
+Does your website and documentation clearly describe the type of user who should use your software?*,Yes,https://github.com/Swaranjali167/Jobify/blob/main/README.md
+Do you publish case studies to show how your software has been used by yourself and others,No,
+Is the name of your project/software unique,Yes,https://github.com/Swaranjali167/Jobify
+Question 2.2: Is your project/software name free from trademark violations?*,Yes,
+Question 3.1: Is your software available as a package that can be deployed without building it?*,No,Have to build the necessary dependencies and requirements before deploying thw software
+Question 3.2: Is your software available for free?*,Yes,Yes can fork or clone it from the repository
+"Question 3.3: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository?*",Yes,"Yes can clone the git repository to local machine -> 
+ 
+https://github.com/Swaranjali167/Jobify.git"
+"Question 3.4: Is your software hosted in an established, third-party repository likeGitHub (https://github.com), BitBucket (https://bitbucket.org),LaunchPad (https://launchpad.net) orSourceForge (https://sourceforge.net)?*",Yes,Hosted in github: https://github.com/Swaranjali167/Jobify
+Q4 - Your software's documentation,,
+Question 4.1: Is your documentation clearly available on your website or within your software?*,Yes,https://github.com/Swaranjali167/Jobify/tree/main/docs
+"Question 4.2: Does your documentation include a ""quick start"" guide, that provides a short overview of how to use your software with some basic examples of use?*",Yes,https://github.com/Swaranjali167/Jobify/blob/main/README.md
+"Question 4.3: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software?*",Yes,A video explaining what necessary software tools are to be installed and how to deploy the application
+"Question 4.4: Do you provide a comprehensive guide to all your software's commands, functions and options?*",Yes,A docs folder explaining the functionality of each part of code
+Question 4.5: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages?*,No,
+"Question 4.6: If your software can be used as a library, package or service by other software, do you provide comprehensive API documentation?*",No,
+Question 4.7: Do you store your documentation under revision control with your source code?*,Yes,https://github.com/Swaranjali167/Jobify/tree/main/docs
+"Question 4.8: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?*",Yes,Release numbers are mentioned on the github repo
+Q5 - How you support your software,,
+Question 5.1: Does your software describe how a user can get help with using your software?*,Yes,
+"Question 5.2: Does your website and documentation describe what support, if any, you provide to users and developers?*",No,
+Question 5.3: Does your project have an e-mail address or forum that is solely for supporting users?*,No,
+Question 5.4: Are e-mails to your support e-mail address received by more than one person?*,No,
+Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests?*,Yes,Users can raise a new issue on the github repo itself using -> https://github.com/Swaranjali167/Jobify/blob/main/.github/ISSUE_TEMPLATE/bug_report.md
+"Question 5.6: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests?*",Yes,https://github.com/Swaranjali167/Jobify/blob/main/.github/ISSUE_TEMPLATE/feature_request.md
+Q6 - Your software's maintainability,,
+Question 6.1: Is your software's architecture and design modular?*,Yes,
+Question 6.2: Does your software use an accepted coding standard or convention?*,Yes,
+Q7 - Open standards and your software,,
+Question 7.1: Does your software allow data to be imported and exported using open data formats?*,No,
+Question 7.2: Does your software allow communications using open communications protocols?*,No,
+Q8 - Your software's portability,,
+Question 8.1: Is your software cross-platform compatible?*,Yes,
+Q9 - Your software and accessibility,,
+Question 9.1: Does your software adhere to appropriate accessibility conventions or standards?*,Yes,
+Question 9.2: Does your documentation adhere to appropriate accessibility conventions or standards?*,Yes,
+Q10 - How you manage your source code,,
+Question 10.1: Is your source code stored in a repository under revision control?*,Yes,
+Question 10.2: Is each source code release a snapshot of the repository?*,Yes,
+Question 10.3: Are releases tagged in the repository?*,Yes,
+"Question 10.4: Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully)*",Yes,
+Question 10.5: Do you back-up your repository?*,Yes,
+Q11 - Building and installing your software,,
+Question 11.1: Do you provide publicly-available instructions for building your software from the source code?*,Yes,
+"Question 11.2: Can you build, or package, your software using an automated tool?*",Yes,
+Question 11.3: Do you provide publicly-available instructions for deploying your software?*,Yes,
+Question 11.4: Does your documentation list all third-party dependencies?*,Yes,
+Question 11.5: Does your documentation list the version number for all third-party dependencies?*,Yes,
+"Question 11.6: Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional?*",Yes,
+Question 11.7: Can you download dependencies using a dependency management tool or package manager?*,Yes,
+Question 11.8: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful?*,Yes,
+Q12 - How you test your software,,
+Question 12.1: Do you have an automated test suite for your software?*,Yes,
+Question 12.2: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?*,No,
+"Question 12.3: Do you use continuous integration, automatically running tests whenever changes are made to your source code?*",Yes,
+Question 12.4: Are your test results publicly visible?*,Yes,
+Question 12.5: Are all manually-run tests documented?*,Yes,
+Q13 - How you engage with your community,,
+"Question 13.1: Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software?*",No,
+Question 13.2: Does your website state how many projects and users are associated with your project?*,No,
+Question 13.3: Do you provide success stories on your website?*,No,
+Question 13.4: Do you list your important partners and collaborators on your website?*,No,
+Question 13.5: Do you list your project's publications on your website or link to a resource where these are available?*,No,
+Question 13.6: Do you list third-party publications that refer to your software on your website or link to a resource where these are available?*,No,
+Question 13.7: Can users subscribe to notifications to changes to your source code repository?*,Yes,
+"Question 13.8: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?*",Yes,
+Q14 - How you manage contributions,,
+"Question 14.1: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?*",Yes,
+Question 14.2: Do you have a contributions policy?*,Yes,
+Question 14.3: Is your contributions' policy publicly available?*,Yes,
+Question 14.4: Do contributors keep the copyright/IP of their contributions?*,Yes,
+Q15 - Your software's copyright and licensing,,
+Question 15.1: Does your website and documentation clearly state the copyright owners of your software and documentation?*,yes,
+Question 15.2: Does each of your source code files include a copyright statement?*,yes,
+Question 15.3: Does your website and documentation clearly state the licence of your software?*,No,
+Question 15.4: Is your software released under an open source licence?*,Yes,
+Question 15.5: Is your software released under an OSI-approved open-source licence?*,Yes,
+Question 15.6: Does each of your source code files include a licence header?*,Yes,
+Question 15.7: Do you have a recommended citation for your software?*,Yes,https://github.com/Swaranjali167/Jobify/blob/main/CITATION.md
+"Question 16.1: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)?*",Yes,https://github.com/Swaranjali167/Jobify/blob/main/README.md
+"Question 16.2: Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed?*",No,
+"Question 16.3: Do you make timely announcements of the deprecation of components, APIs, etc.?*",No,
